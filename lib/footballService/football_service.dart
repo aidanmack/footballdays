@@ -46,8 +46,8 @@ final getTopPremTeam = FutureProvider<TeamInfo>((ref) async {
           }));
 });
 
-int getTeamWithMostWins(Football value) {
-  List<int?> ids = value.matches.map((element) {
+int getTeamWithMostWins(Football team) {
+  List<int?> ids = team.matches.map((element) {
     if (element.score.winner == "AWAY_TEAM") {
       return element.awayTeam.id;
     } else if (element.score.winner == "HOME_TEAM") {
