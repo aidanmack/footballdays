@@ -1,6 +1,6 @@
 # Flutter example - Football Stats
 
-This is flutter project shows one of the top winning football teams in the last 30 days in the Premier League.
+This is a Flutter project that shows one of the top winning football teams in the last 30 days in the Premier League.
 
 Project includes unit test and dependency inversion.
 
